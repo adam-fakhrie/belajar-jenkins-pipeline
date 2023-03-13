@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent node {
+        label "Ubuntu && Fedora"
+    }
     stages{
         stage("Hello"){
             steps{
