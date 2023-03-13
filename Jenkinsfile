@@ -9,11 +9,14 @@ pipeline {
     post{
         always{
             echo "I always say hello to you"
-        } success {
+        } 
+        success {
             echo "Great, succes"
-        } failure {
+        } 
+        failure {
             echo "Oh, its failed"
-        } cleanup {
+        } 
+        cleanup {
             echo "Don't care its succes or error"
         }
     }
