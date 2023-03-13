@@ -9,7 +9,7 @@ pipeline {
     post{
         always{
             echo "I always say hello to you"
-        } succes {
+        } success {
             echo "Great, succes"
         } failure {
             echo "Oh, its failed"
