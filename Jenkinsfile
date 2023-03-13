@@ -6,7 +6,6 @@ pipeline {
                 echo("Its Build")
             }
         }
-        sh"error simualtion"
         stage("Test"){
             steps{
                 echo("Its Test")
